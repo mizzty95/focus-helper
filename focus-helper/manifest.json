@@ -1,0 +1,19 @@
+{
+    "name": "Drink Water",
+    "description": "Build an Extension!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "notifications",
+        "storage",
+        "alarms",
+        "tabs",
+        "offscreen"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
